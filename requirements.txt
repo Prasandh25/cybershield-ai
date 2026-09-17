@@ -1,0 +1,48 @@
+# --- Core data handling ---
+numpy==1.26.4
+pandas==2.2.2
+
+# --- ML models ---
+scikit-learn==1.4.2
+xgboost==2.0.3
+lightgbm==4.3.0
+catboost==1.2.5
+
+# --- Explainability ---
+shap==0.45.0
+lime==0.2.0.1
+
+# --- Class imbalance ---
+imbalanced-learn==0.12.2
+
+# --- Model persistence ---
+joblib==1.4.2
+
+# --- FastAPI backend + WebSocket ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+websockets==12.0
+
+# --- Database ---
+sqlalchemy==2.0.30
+alembic==1.13.1
+
+# --- Packet handling ---
+scapy==2.5.0
+
+# --- Serial + MQTT ingestion ---
+pyserial==3.5
+paho-mqtt==1.6.1
+
+# --- Charts ---
+matplotlib==3.8.4
+
+# --- PDF generation ---
+reportlab==4.2.0
+
+# --- Testing ---
+pytest==8.2.0
+httpx==0.27.0
